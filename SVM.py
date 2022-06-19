@@ -48,7 +48,7 @@ print("Emotions being observed are : " , observed_emotions)
 
 def load_data(test_size=0.25):
   x,y=[],[]
-  for file in glob.glob("/content/drive/MyDrive/DATASET/Dataset/RAVDESS_Dataset/Actor_*/*.wav"):
+  for file in glob.glob("/content/drive/MyDrive/DATASET/Dataset/RAVDESS_Dataset/Radvess_Dataset/Actor_*/*.wav"):
     file_name=os.path.basename(file)
     emotion=emotions[file_name.split("-")[2]]
     if emotion not in observed_emotions:
