@@ -7,6 +7,7 @@ Dataset link: https://www.kaggle.com/datasets/dejolilandry/ravdess
 
 STEPS TO EXECUTE THE PROJECT CODE:
 1.Download the dataset from above link and place it in google drive
+
 2.Create a google colaboratory for the project(both dataset and colab notebook should be under same mail)
 3.Copy the contents from copy_final_ser.py into cells of colab
 4.After running first cell ,drive will be mounted i.e.,drive files will be appeared to use.
